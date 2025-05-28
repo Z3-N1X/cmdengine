@@ -6,6 +6,7 @@ from modules import Object
 from typing import List
 from modules.components.transform import Transform
 from varTypes.Vector2 import Vector2
+
 # Text dimensions (characters)
 TEXT_WIDTH = 100
 TEXT_HEIGHT = 10
@@ -69,7 +70,7 @@ def render():
         print(''.join(i))
 
     
-render()
+
 obj = Object('Player', 1)
 tar = Transform()
 tar.position = Vector2(1, 1)
